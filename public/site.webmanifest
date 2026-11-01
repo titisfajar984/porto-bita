@@ -1,0 +1,12 @@
+{
+  "name": "Adinda Wira Zahra Tsabitah — Portfolio",
+  "short_name": "Adinda",
+  "description": "IT Enthusiast · UI/UX Design · Web & Mobile · Cloud Computing",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ECEDF0",
+  "theme_color": "#ECEDF0",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

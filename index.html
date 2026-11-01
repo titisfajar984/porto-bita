@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ECEDF0" />
+    <meta name="color-scheme" content="light" />
+
+    <title>Adinda Wira Zahra Tsabitah — IT Enthusiast Portfolio</title>
+    <meta
+      name="description"
+      content="Portofolio Adinda Wira Zahra Tsabitah, lulusan S1 Sistem Informasi — UI/UX, web, mobile, cloud computing, dan keamanan informasi."
+    />
+    <meta name="author" content="Adinda Wira Zahra Tsabitah" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Adinda Wira Zahra Tsabitah — IT Enthusiast Portfolio" />
+    <meta
+      property="og:description"
+      content="IT Enthusiast · UI/UX Design · Web & Mobile · Cloud Computing. Portofolio proyek dan pengalaman Adinda Wira Zahra Tsabitah."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Adinda Wira Zahra Tsabitah — IT Enthusiast Portfolio" />
+    <meta
+      name="twitter:description"
+      content="IT Enthusiast · UI/UX Design · Web & Mobile · Cloud Computing."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Self-hosted Poppins (AGENT.md §10) -->
+    <link rel="preload" href="/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/poppins-300.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- LCP element (AGENT.md §10) -->
+    <link rel="preload" href="/images/adinda-hero-mobile.webp" as="image" type="image/webp" media="(max-width: 767px)" />
+    <link rel="preload" href="/images/adinda-hero.webp" as="image" type="image/webp" media="(min-width: 768px)" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Adinda Wira Zahra Tsabitah",
+        "jobTitle": "IT Enthusiast",
+        "email": "mailto:iamzahrabit@gmail.com",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universitas Pembangunan Nasional \"Veteran\" Jawa Timur"
+        },
+        "knowsLanguage": ["id", "en", "ko"],
+        "sameAs": [
+          "https://linktr.ee/iamzahrabit",
+          "https://github.com/zhrbit",
+          "https://www.instagram.com/zhrbit_"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <!-- Static boot shell: paints before the bundle executes so FCP is not
+           gated on React (AGENT.md §10). Replaced by the app on first render. -->
+      <div
+        aria-hidden="true"
+        style="position:fixed;inset:0;background:#fff"
+      ></div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adinda-portfolio.example/sitemap.xml
